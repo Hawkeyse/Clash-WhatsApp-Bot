@@ -4,7 +4,7 @@ const coc = new cocClient();
 const config = require('./config.json');
 
 const client = new Client({
-    authStrategy: new LocalAuth(),
+    this.authStrategy: new LocalAuth(),
 });
 
 
